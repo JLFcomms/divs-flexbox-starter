@@ -110,12 +110,26 @@ body {
   height: 100%;
 }
 
+.title {
+    display: flex;
+    flex-direction: column;
+    font-size: 3em;
+}
+
+.paragraph {
+    display: flex;
+    flex-direction: column;
+    font-size: 2em;
+    border-bottom: 1px solid #555;    
+}
+
 .wrapper {
   /*add display:flex and set justify-content to space-between*/
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
   align-items: center;
+  border-bottom: 1px solid #555;    
 }
 
 .div-1, .div-2, .div-3 {
